@@ -8,15 +8,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditTextActivity">
+        <activity android:name=".ImageButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TextViewActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".TextViewActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".EditTextActivity"/>
+        <activity android:name=".ToggleSwitchButton">
+        </activity>
+        <activity android:name=".ChronometerActivity">
+        </activity>
+        <activity android:name=".ClockAnalogText">
+        </activity>
+        <activity android:name=".ImageViewActivity">
+        </activity>
+        <activity android:name=".ButtonActivity">
+        </activity>
     </application>
 
 </manifest>
