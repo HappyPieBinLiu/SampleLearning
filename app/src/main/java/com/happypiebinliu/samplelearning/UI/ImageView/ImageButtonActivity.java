@@ -1,7 +1,9 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.ImageView;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.happypiebinliu.samplelearning.R;
 
 public class ImageButtonActivity extends AppCompatActivity {
 

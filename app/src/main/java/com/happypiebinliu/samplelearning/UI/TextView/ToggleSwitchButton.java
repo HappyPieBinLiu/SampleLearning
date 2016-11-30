@@ -1,4 +1,4 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.TextView;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.ToggleButton;
+
+import com.happypiebinliu.samplelearning.R;
 
 /**
  * ToggleButton and switch 也是有Button派生而来。

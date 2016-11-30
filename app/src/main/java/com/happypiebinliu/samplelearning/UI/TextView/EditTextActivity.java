@@ -1,7 +1,9 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.TextView;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.happypiebinliu.samplelearning.R;
 
 /***
  * 练习了表格布局方式，可输入框里面，进行了稍微的用户体验扩充

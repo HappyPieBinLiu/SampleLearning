@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_listview_from_array"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--直接根据数组源，给出列表项，并且设置分割条-->
+    <ListView
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        android:entries="@array/AdapterViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

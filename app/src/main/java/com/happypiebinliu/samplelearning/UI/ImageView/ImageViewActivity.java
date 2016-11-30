@@ -1,4 +1,4 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.ImageView;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -10,6 +10,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.happypiebinliu.samplelearning.R;
 
 /**
  * 图片浏览器

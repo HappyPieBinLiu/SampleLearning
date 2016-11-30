@@ -1,7 +1,9 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.TextView;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.happypiebinliu.samplelearning.R;
 
 public class TextViewActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.TextView;
 
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
+
+import com.happypiebinliu.samplelearning.R;
 
 /**
  * 计时器

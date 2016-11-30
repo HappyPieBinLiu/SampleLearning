@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_auto_complete_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:completionHint="选择你喜欢的女士类型"
+        android:completionThreshold="1"
+        android:dropDownHorizontalOffset="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

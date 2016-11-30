@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AdapterViews">
+        <item>ListView</item>
+        <item>GridView</item>
+        <item>Spinner</item>
+        <item>AdapterViewFlipper</item>
+        <item>StackView</item>
+        <item>ExpandableListView</item>
+    </string-array>
+</resources>

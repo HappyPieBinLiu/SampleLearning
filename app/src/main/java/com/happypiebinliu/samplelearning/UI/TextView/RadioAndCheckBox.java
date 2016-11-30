@@ -1,10 +1,11 @@
-package com.happypiebinliu.samplelearning;
+package com.happypiebinliu.samplelearning.UI.TextView;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.RadioButton;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.happypiebinliu.samplelearning.R;
 
 /**
  * RadioButton 和 CheckBox都是Button的子类

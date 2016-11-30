@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_list_view_from_array_adapter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--设置分割条 红色-->
+    <ListView
+        android:id="@+id/redListView"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <!--设置分割条 绿色-->
+    <ListView
+        android:id="@+id/greenListView"
+        android:divider="#0f0"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
