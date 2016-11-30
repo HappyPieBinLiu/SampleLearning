@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.happypiebinliu.samplelearning.R;
 
+
 public class ListViewFromArrayActivity extends AppCompatActivity {
 
     @Override

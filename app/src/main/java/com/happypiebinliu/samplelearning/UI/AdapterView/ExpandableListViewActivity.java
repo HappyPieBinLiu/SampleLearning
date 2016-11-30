@@ -77,6 +77,7 @@ public class ExpandableListViewActivity extends AppCompatActivity {
             public boolean hasStableIds() {
                 return true;
             }
+
             private TextView getTextView(){
                 AbsListView.LayoutParams lp = new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 64);
                 TextView textView = new TextView(ExpandableListViewActivity.this);
@@ -100,16 +101,26 @@ public class ExpandableListViewActivity extends AppCompatActivity {
                 linearLayout.setOrientation(LinearLayout.HORIZONTAL);
 
                 ImageView logo = new ImageView(ExpandableListViewActivity.this);
-                logo.setMaxHeight(60);
-                logo.setMaxWidth(80);
+                logo.setMaxHeight(10);
+                logo.setMaxWidth(20);
                 logo.setImageResource(logos[groupPosition]);
                 linearLayout.addView(logo);
+
                 TextView textView = getTextView();
                 textView.setText(getGroup(groupPosition).toString());
                 linearLayout.addView(textView);
                 return linearLayout;
             }
 
+            /**
+             * 组里面的子布局
+             * @param groupPosition
+             * @param childPosition
+             * @param isLastChild
+             * @param convertView
+             * @param parent
+             * @return
+             */
             @Override
             public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
                 TextView textView = getTextView();

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.happypiebinliu.samplelearning">
+    package="com.happypiebinliu.samplelearning">
 
     <application
         android:allowBackup="true"
@@ -10,42 +10,30 @@
         android:theme="@style/AppTheme">
         <activity android:name=".UI.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UI.TextView.TextViewActivity"/>
-        <activity android:name=".UI.ImageView.ImageButtonActivity"/>
-        <activity android:name=".UI.TextView.EditTextActivity"/>
-        <activity android:name=".UI.TextView.ToggleSwitchButton">
-        </activity>
-        <activity android:name=".UI.TextView.ChronometerActivity">
-        </activity>
-        <activity android:name=".UI.TextView.ClockAnalogText">
-        </activity>
-        <activity android:name=".UI.ImageView.ImageViewActivity">
-        </activity>
-        <activity android:name=".UI.TextView.ButtonActivity">
-        </activity>
-        <activity android:name=".UI.TextView.RadioAndCheckBox">
-        </activity>
-        <activity android:name=".UI.AdapterView.ListViewFromArrayActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.ListViewFromArrayAdapterActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.ListActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.ListViewFromSimpleAdapterActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.ListViewExtendBaseAdapterActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.AutoCompleteTextViewActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.GridViewActivity">
-        </activity>
-        <activity android:name=".UI.AdapterView.ExpandableListViewActivity">
-        </activity>
+        <activity android:name=".UI.TextView.TextViewActivity" />
+        <activity android:name=".UI.ImageView.ImageButtonActivity" />
+        <activity android:name=".UI.TextView.EditTextActivity" />
+        <activity android:name=".UI.TextView.ToggleSwitchButton" />
+        <activity android:name=".UI.TextView.ChronometerActivity" />
+        <activity android:name=".UI.TextView.ClockAnalogText" />
+        <activity android:name=".UI.ImageView.ImageViewActivity" />
+        <activity android:name=".UI.TextView.ButtonActivity" />
+        <activity android:name=".UI.TextView.RadioAndCheckBox" />
+        <activity android:name=".UI.AdapterView.ListViewFromArrayActivity" />
+        <activity android:name=".UI.AdapterView.ListViewFromArrayAdapterActivity" />
+        <activity android:name=".UI.AdapterView.ListActivity" />
+        <activity android:name=".UI.AdapterView.ListViewFromSimpleAdapterActivity" />
+        <activity android:name=".UI.AdapterView.ListViewExtendBaseAdapterActivity" />
+        <activity android:name=".UI.AdapterView.AutoCompleteTextViewActivity" />
+        <activity android:name=".UI.AdapterView.GridViewActivity" />
+        <activity android:name=".UI.AdapterView.ExpandableListViewActivity" />
+        <activity android:name=".UI.AdapterView.SpinnerActivity" />
+        <activity android:name=".UI.AdapterView.AdapterViewFilpperActivity"></activity>
     </application>
 
 </manifest>
