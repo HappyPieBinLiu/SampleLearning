@@ -8,7 +8,9 @@
     <ViewSwitcher
         android:id="@+id/viewSwitcher"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ViewSwitcher>
+        android:layout_height="match_parent">
+
+    </ViewSwitcher>
 
     <Button
         android:id="@+id/btnPrev"

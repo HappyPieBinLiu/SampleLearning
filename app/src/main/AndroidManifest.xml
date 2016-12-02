@@ -33,7 +33,7 @@
         <activity android:name=".UI.AdapterView.GridViewActivity"/>
         <activity android:name=".UI.AdapterView.ExpandableListViewActivity"/>
         <activity android:name=".UI.AdapterView.SpinnerActivity"/>
-        <activity android:name=".UI.AdapterView.AdapterViewFilpperActivity"/>
+        <activity android:name=".UI.AdapterView.AdapterViewFlipperActivity"/>
         <activity android:name=".UI.AdapterView.StackViewActivity">
         </activity>
         <activity android:name=".UI.ProgressBar.ProgressBarActivity">
@@ -43,6 +43,16 @@
         <activity android:name=".UI.ProgressBar.RatingBarActivity">
         </activity>
         <activity android:name=".UI.ViewAnimator.ViewSwitcherActivity">
+        </activity>
+        <activity android:name=".UI.ViewAnimator.ImageSwitcherActivity">
+        </activity>
+        <activity android:name=".UI.ViewAnimator.TextSwitcherActivity">
+        </activity>
+        <activity android:name=".UI.ViewAnimator.ViewFlipperActivity">
+        </activity>
+        <activity android:name=".UI.Others.ToastActivity">
+        </activity>
+        <activity android:name=".UI.Others.CalendarViewActivity">
         </activity>
     </application>
 

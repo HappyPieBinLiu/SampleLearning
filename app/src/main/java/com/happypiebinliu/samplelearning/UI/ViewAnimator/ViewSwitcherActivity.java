@@ -37,7 +37,7 @@ public class ViewSwitcherActivity extends AppCompatActivity {
     LayoutInflater layoutInflater;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_switcher);
         viewSwitcher = (ViewSwitcher) findViewById(R.id.viewSwitcher);
@@ -49,7 +49,6 @@ public class ViewSwitcherActivity extends AppCompatActivity {
             dataItem item = new dataItem();
             item.dataName = label;
             item.drawable = drawable;
-
         }
         screenCount = items.size() % NUMBER_PER_SCREEN == 0 ?
                 items.size()/NUMBER_PER_SCREEN :
@@ -63,7 +62,7 @@ public class ViewSwitcherActivity extends AppCompatActivity {
         next(null);
     }
 
-    private void next(View v) {
+    public void next(View v) {
         if (screenNo < screenCount - 1){
             screenNo++;
             // 组件显示的动画
@@ -74,7 +73,7 @@ public class ViewSwitcherActivity extends AppCompatActivity {
             viewSwitcher.showNext();
         }
     }
-    private void prev(View v) {
+    public void prev(View v) {
         if (screenNo > 0 ){
             screenNo--;
             // 组件显示的动画
@@ -109,13 +108,12 @@ public class ViewSwitcherActivity extends AppCompatActivity {
         public View getView(int i, View view, ViewGroup viewGroup) {
             if (view == null){
                 view = layoutInflater.inflate(R.layout.labelicon, null);
-
             }
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageDrawable(getItem(i).drawable);
             TextView textView = (TextView) findViewById(R.id.textView);
-            textView.setText(this.getItem(i).dataName);
-            return null;
+            textView.setText(getItem(i).dataName);
+            return view;
         }
     };
 }

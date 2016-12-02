@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import com.happypiebinliu.samplelearning.R;
 
-public class AdapterViewFilpperActivity extends AppCompatActivity {
+public class AdapterViewFlipperActivity extends AppCompatActivity {
 
     private int[] imageIds = new  int[]{
             R.drawable.listview_images1,
@@ -28,7 +28,7 @@ public class AdapterViewFilpperActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adapter_view_filpper);
+        setContentView(R.layout.activity_adapter_view_flipper);
         adapterViewFlipper = (AdapterViewFlipper) findViewById(R.id.flipper);
 
         BaseAdapter baseAdapter = new BaseAdapter() {
@@ -49,11 +49,11 @@ public class AdapterViewFilpperActivity extends AppCompatActivity {
 
             @Override
             public View getView(int i, View view, ViewGroup viewGroup) {
-                ImageView imageView = new ImageView(AdapterViewFilpperActivity.this);
+                ImageView imageView = new ImageView(AdapterViewFlipperActivity.this);
                 imageView.setImageResource(imageIds[i]);
                 imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 imageView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-
+                // 这里要返回一个ＩｍａｇｅＶｉｅｗ
                 return imageView;
             }
         };

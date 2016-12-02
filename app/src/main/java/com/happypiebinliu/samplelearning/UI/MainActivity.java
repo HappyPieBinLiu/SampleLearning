@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.happypiebinliu.samplelearning.R;
-import com.happypiebinliu.samplelearning.UI.ViewAnimator.ViewSwitcherActivity;
+import com.happypiebinliu.samplelearning.UI.Others.ToastActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case  R.id.btn_test:
-                Intent intent = new Intent(this, ViewSwitcherActivity.class);
+                Intent intent = new Intent(this, ToastActivity.class);
                 startActivity(intent);
+                break;
         }
     }
 }
