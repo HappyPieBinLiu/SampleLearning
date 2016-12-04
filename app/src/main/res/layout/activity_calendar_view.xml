@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:firstDayOfWeek="3"
+        android:shownWeekCount="4"
+        android:selectedWeekBackgroundColor="#aff"
+        android:focusedMonthDateColor="#f00"
+        android:weekSeparatorLineColor="#ff0"
+        android:unfocusedMonthDateColor="#f0f"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
 </LinearLayout>

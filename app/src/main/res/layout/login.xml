@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="11pt"/>
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input user name"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="11pt"/>
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input your password"
+            android:password="true"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tel Number:"
+            android:textSize="11pt"/>
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input phone Number"
+            android:phoneNumber="true"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+
+</TableLayout>

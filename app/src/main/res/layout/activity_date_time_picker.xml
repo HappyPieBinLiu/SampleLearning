@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_date_time_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Please select the data and time.--->"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:startYear="2010"
+        android:endYear="2016"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="true"
+        android:spinnersShown="true"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+    
+    <EditText
+        android:id="@+id/show"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
