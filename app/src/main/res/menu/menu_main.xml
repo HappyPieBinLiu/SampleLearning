@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="FONT SIZE" android:icon="@drawable/font">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font10" android:title="FONT10"/>
+                <item android:id="@+id/font12" android:title="FONT12"/>
+                <item android:id="@+id/font14" android:title="FONT14"/>
+                <item android:id="@+id/font16" android:title="FONT16"/>
+                <item android:id="@+id/font18" android:title="FONT18"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/plainItem" android:title="PLAIN">
+    </item>
+    <item android:title="Color" android:id="@+id/color">
+        <menu>
+            <group>
+                <item android:id="@+id/red" android:title="RDE"/>
+                <item android:id="@+id/green" android:title="GREEN"/>
+                <item android:id="@+id/blue" android:title="BLUE"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

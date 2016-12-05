@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.happypiebinliu.samplelearning">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.happypiebinliu.samplelearning">
 
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
@@ -14,49 +14,63 @@
         android:theme="@style/AppTheme">
         <activity android:name=".UI.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".UI.TextView.TextViewActivity" />
-        <activity android:name=".UI.ImageView.ImageButtonActivity" />
-        <activity android:name=".UI.TextView.EditTextActivity" />
-        <activity android:name=".UI.TextView.ToggleSwitchButton" />
-        <activity android:name=".UI.TextView.ChronometerActivity" />
-        <activity android:name=".UI.TextView.ClockAnalogText" />
-        <activity android:name=".UI.ImageView.ImageViewActivity" />
-        <activity android:name=".UI.TextView.ButtonActivity" />
-        <activity android:name=".UI.TextView.RadioAndCheckBox" />
-        <activity android:name=".UI.AdapterView.ListViewFromArrayActivity" />
-        <activity android:name=".UI.AdapterView.ListViewFromArrayAdapterActivity" />
-        <activity android:name=".UI.AdapterView.ListActivity" />
-        <activity android:name=".UI.AdapterView.ListViewFromSimpleAdapterActivity" />
-        <activity android:name=".UI.AdapterView.ListViewExtendBaseAdapterActivity" />
-        <activity android:name=".UI.AdapterView.AutoCompleteTextViewActivity" />
-        <activity android:name=".UI.AdapterView.GridViewActivity" />
-        <activity android:name=".UI.AdapterView.ExpandableListViewActivity" />
-        <activity android:name=".UI.AdapterView.SpinnerActivity" />
-        <activity android:name=".UI.AdapterView.AdapterViewFlipperActivity" />
-        <activity android:name=".UI.AdapterView.StackViewActivity" />
-        <activity android:name=".UI.ProgressBar.ProgressBarActivity" />
-        <activity android:name=".UI.ProgressBar.SeekBarActivity" />
-        <activity android:name=".UI.ProgressBar.RatingBarActivity" />
-        <activity android:name=".UI.ViewAnimator.ViewSwitcherActivity" />
-        <activity android:name=".UI.ViewAnimator.ImageSwitcherActivity" />
-        <activity android:name=".UI.ViewAnimator.TextSwitcherActivity" />
-        <activity android:name=".UI.ViewAnimator.ViewFlipperActivity" />
-        <activity android:name=".UI.Others.ToastActivity" />
-        <activity android:name=".UI.Others.CalendarViewActivity" />
-        <activity android:name=".UI.Others.DateTimePickerActivity" />
-        <activity android:name=".UI.Others.NumberPickerActivity" />
-        <activity android:name=".UI.Others.SearchViewActivity" />
-        <activity android:name=".UI.Others.TabHostActivity" />
-        <activity android:name=".UI.Others.ScrollViewActivity" />
-        <activity android:name=".UI.Others.NotificationActivity" />
-        <activity android:name=".UI.Others.OtherActivity" />
-        <activity android:name=".UI.Dialog.SimpleAlterDialogActivity" />
-        <activity android:name=".UI.Dialog.DialogThemeActivity"></activity>
+        <activity android:name=".UI.TextView.TextViewActivity"/>
+        <activity android:name=".UI.ImageView.ImageButtonActivity"/>
+        <activity android:name=".UI.TextView.EditTextActivity"/>
+        <activity android:name=".UI.TextView.ToggleSwitchButton"/>
+        <activity android:name=".UI.TextView.ChronometerActivity"/>
+        <activity android:name=".UI.TextView.ClockAnalogText"/>
+        <activity android:name=".UI.ImageView.ImageViewActivity"/>
+        <activity android:name=".UI.TextView.ButtonActivity"/>
+        <activity android:name=".UI.TextView.RadioAndCheckBox"/>
+        <activity android:name=".UI.AdapterView.ListViewFromArrayActivity"/>
+        <activity android:name=".UI.AdapterView.ListViewFromArrayAdapterActivity"/>
+        <activity android:name=".UI.AdapterView.ListActivity"/>
+        <activity android:name=".UI.AdapterView.ListViewFromSimpleAdapterActivity"/>
+        <activity android:name=".UI.AdapterView.ListViewExtendBaseAdapterActivity"/>
+        <activity android:name=".UI.AdapterView.AutoCompleteTextViewActivity"/>
+        <activity android:name=".UI.AdapterView.GridViewActivity"/>
+        <activity android:name=".UI.AdapterView.ExpandableListViewActivity"/>
+        <activity android:name=".UI.AdapterView.SpinnerActivity"/>
+        <activity android:name=".UI.AdapterView.AdapterViewFlipperActivity"/>
+        <activity android:name=".UI.AdapterView.StackViewActivity"/>
+        <activity android:name=".UI.ProgressBar.ProgressBarActivity"/>
+        <activity android:name=".UI.ProgressBar.SeekBarActivity"/>
+        <activity android:name=".UI.ProgressBar.RatingBarActivity"/>
+        <activity android:name=".UI.ViewAnimator.ViewSwitcherActivity"/>
+        <activity android:name=".UI.ViewAnimator.ImageSwitcherActivity"/>
+        <activity android:name=".UI.ViewAnimator.TextSwitcherActivity"/>
+        <activity android:name=".UI.ViewAnimator.ViewFlipperActivity"/>
+        <activity android:name=".UI.Others.ToastActivity"/>
+        <activity android:name=".UI.Others.CalendarViewActivity"/>
+        <activity android:name=".UI.Others.DateTimePickerActivity"/>
+        <activity android:name=".UI.Others.NumberPickerActivity"/>
+        <activity android:name=".UI.Others.SearchViewActivity"/>
+        <activity android:name=".UI.Others.TabHostActivity"/>
+        <activity android:name=".UI.Others.ScrollViewActivity"/>
+        <activity android:name=".UI.Others.NotificationActivity"/>
+        <activity android:name=".UI.Others.OtherActivity"/>
+        <activity android:name=".UI.Dialog.SimpleAlterDialogActivity"/>
+        <activity android:name=".UI.Dialog.DialogThemeActivity"/>
+        <activity android:name=".UI.Dialog.PopupWindowActivity">
+        </activity>
+        <activity android:name=".UI.Dialog.DateTimePickerDialogActivity">
+        </activity>
+        <activity android:name=".UI.Dialog.ProgressDialogActivity">
+        </activity>
+        <activity android:name=".UI.Menu.SubMenuActivity">
+        </activity>
+        <activity android:name=".UI.Menu.ContextMenuActivity">
+        </activity>
+        <activity android:name=".UI.Menu.MenuFromXMLActivity">
+        </activity>
+        <activity android:name=".UI.Menu.PopupMenuActivity">
+        </activity>
     </application>
 
 </manifest>
