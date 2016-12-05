@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="FONT SIZE" android:icon="@drawable/font">
+    <item android:title="FONT SIZE" android:icon="@drawable/font"
+        android:showAsAction="always|withText">
         <menu>
             <group android:checkableBehavior="single">
                 <item android:id="@+id/font10" android:title="FONT10"/>
@@ -11,9 +12,13 @@
             </group>
         </menu>
     </item>
-    <item android:id="@+id/plainItem" android:title="PLAIN">
+    <item android:id="@+id/plainItem"
+        android:showAsAction="always|withText"
+        android:title="PLAIN">
     </item>
-    <item android:title="Color" android:id="@+id/color">
+    <item android:title="Color"
+        android:showAsAction="always"
+        android:id="@+id/color">
         <menu>
             <group>
                 <item android:id="@+id/red" android:title="RDE"/>

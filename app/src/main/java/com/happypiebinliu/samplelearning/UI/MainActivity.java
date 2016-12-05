@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.happypiebinliu.samplelearning.R;
-import com.happypiebinliu.samplelearning.UI.Menu.PopupMenuActivity;
+import com.happypiebinliu.samplelearning.UI.Menu.MenuFromXMLActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case  R.id.btn_test:
-                Intent intent = new Intent(this, PopupMenuActivity.class);
+                Intent intent = new Intent(this, MenuFromXMLActivity.class);
                 startActivity(intent);
                 break;
         }
