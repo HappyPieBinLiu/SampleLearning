@@ -1,19 +1,20 @@
 package com.happypiebinliu.samplelearning.UI.ActionBar;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.happypiebinliu.samplelearning.R;
 
-public class ActionBarActivity extends Activity {
+public class ActionBarActivity extends AppCompatActivity {
 
-    android.app.ActionBar actionBar;
+    ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_action_bar);
-        actionBar = getActionBar();
+        actionBar = getSupportActionBar();
     }
     public void showActionBar(View view){
         actionBar.show();

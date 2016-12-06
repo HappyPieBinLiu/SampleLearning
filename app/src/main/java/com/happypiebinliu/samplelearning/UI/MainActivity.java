@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.happypiebinliu.samplelearning.Event.SendSmsActivity;
 import com.happypiebinliu.samplelearning.R;
-import com.happypiebinliu.samplelearning.UI.Menu.MenuFromXMLActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case  R.id.btn_test:
-                Intent intent = new Intent(this, MenuFromXMLActivity.class);
+                Intent intent = new Intent(this, SendSmsActivity.class);
                 startActivity(intent);
                 break;
         }
