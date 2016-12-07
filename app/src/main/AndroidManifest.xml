@@ -12,7 +12,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -73,11 +75,17 @@
         </activity>
         <activity android:name=".UI.ActionBar.ActionBarDropListActivity">
         </activity>
-        <activity android:name=".Event.PlaneView">
-        </activity>
         <activity android:name=".Event.KeyListenerActivity">
         </activity>
         <activity android:name=".Event.SendSmsActivity">
+        </activity>
+        <activity android:name=".Event.CallBackDrawActivity">
+        </activity>
+        <activity android:name=".Event.ConfigurationActivity">
+        </activity>
+        <activity android:name=".Event.HandlerActivity">
+        </activity>
+        <activity android:name=".Event.LooperHandlerActivity">
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.happypiebinliu.samplelearning.UI;
+package com.happypiebinliu.samplelearning;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.happypiebinliu.samplelearning.Event.SendSmsActivity;
-import com.happypiebinliu.samplelearning.R;
+import com.happypiebinliu.samplelearning.Event.HandlerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case  R.id.btn_test:
-                Intent intent = new Intent(this, SendSmsActivity.class);
+                Intent intent = new Intent(this, HandlerActivity.class);
                 startActivity(intent);
                 break;
         }
