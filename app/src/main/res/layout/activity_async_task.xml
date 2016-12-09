@@ -2,24 +2,23 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_looper_handler"
+    android:id="@+id/activity_async_task"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.happypiebinliu.samplelearning.Event.LooperHandlerActivity">
-    <EditText
-        android:id="@+id/editNum"
-        android:hint="请输入上限"
-        android:layout_width="match_parent"
+    tools:context="com.happypiebinliu.samplelearning.Event.AsyncTaskActivity">
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:text="Calc 计算"
-        android:onClick="cal"
-        android:layout_centerInParent="true"
+        android:text="异步下载开始"
+        android:onClick="download"
         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

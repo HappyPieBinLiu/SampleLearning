@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="背景灯光组">
+        <CheckBoxPreference
+            android:title="灯光强度"
+            android:key="light"
+            android:entries="@array/light_strength"
+            android:entryValues="@array/light_strength_value"
+            android:summary="请选择灯光强度TEST"
+            android:dialogTitle="请选择灯光强度"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="文字显示组">
+        <SwitchPreference
+            android:title="自动滚屏"
+            android:key="autoScroll"
+            android:summaryOn="开启"
+            android:summaryOff="关闭"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

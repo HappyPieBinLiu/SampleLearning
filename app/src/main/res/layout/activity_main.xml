@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/btn_test"
-        android:text="TEST"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:id="@+id/btn_test2"
-        android:text="TEST"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 
-</GridLayout>
+    <ImageView
+        android:background="@drawable/start_your_learning"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/go"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:background="@color/colorRGB112"
+        android:textColor="@color/colorRGB163"
+        android:text="let' Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

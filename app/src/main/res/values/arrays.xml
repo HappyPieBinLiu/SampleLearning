@@ -8,4 +8,22 @@
         <item>StackView</item>
         <item>ExpandableListView</item>
     </string-array>
+    <string-array name="gender">
+        <item>Girl</item>
+        <item>Boy</item>
+    </string-array>
+    <string-array name="genderValue">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="light_strength">
+        <item>强</item>
+        <item>中</item>
+        <item>弱</item>
+    </string-array>
+    <string-array name="light_strength_value">
+        <item>100</item>
+        <item>50</item>
+        <item>5</item>
+    </string-array>
 </resources>

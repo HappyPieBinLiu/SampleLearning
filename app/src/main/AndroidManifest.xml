@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -86,6 +87,18 @@
         <activity android:name=".Event.HandlerActivity">
         </activity>
         <activity android:name=".Event.LooperHandlerActivity">
+        </activity>
+        <activity android:name=".Event.AsyncTaskActivity">
+        </activity>
+        <activity android:name=".Activity.LauncherActivity">
+        </activity>
+        <activity android:name=".Activity.MainGuidanceActivity">
+        </activity>
+        <activity android:name=".Activity.LauncherActivityAndFragment">
+        </activity>
+        <activity android:name=".Activity.ExpandableListActivity">
+        </activity>
+        <activity android:name=".Activity.PreferenceTestActivity">
         </activity>
     </application>
 
