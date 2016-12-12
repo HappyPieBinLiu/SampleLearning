@@ -9,13 +9,17 @@ public class LauncherActivityAndFragment extends android.app.LauncherActivity {
     String[]   names = {
             "用LauncherActivity开发启动Activity的列表",
             "用ExpandableListActivity开发可展开的Activity",
-            "用PreferenceActivity实现参数设置界面"
+            "用PreferenceActivity实现参数设置界面",
+            "用Bundle保存注册信息",
+            "启动Activity通过startActivityForResult，传递数据，返回数据",
     };
 
     Class<?>[] classes = {
             LauncherActivity.class,
             ExpandableListActivity.class,
             PreferenceTestActivity.class,
+            PutextrasBundleActivity.class,
+            StartActivityForResultActivity.class,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

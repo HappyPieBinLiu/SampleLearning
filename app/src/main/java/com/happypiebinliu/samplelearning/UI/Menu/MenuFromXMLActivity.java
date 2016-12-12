@@ -35,7 +35,7 @@ public class MenuFromXMLActivity extends AppCompatActivity {
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         MenuInflater inflater = new MenuInflater(this);
         inflater.inflate(R.menu.context, menu);
-        menu.setHeaderTitle("Select the backgroun color");
+        menu.setHeaderTitle("Select the background color");
         menu.setHeaderIcon(R.drawable.tool);
     }
     @Override
