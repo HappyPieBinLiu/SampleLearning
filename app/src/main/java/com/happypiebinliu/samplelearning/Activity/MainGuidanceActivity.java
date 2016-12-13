@@ -20,12 +20,14 @@ public class MainGuidanceActivity extends AppCompatActivity {
     private int[] imageIds = new  int[]{
             R.drawable.guidance_activity_ui,
             R.drawable.guidance_activity_event,
-            R.drawable.guidance_activity_fragment
+            R.drawable.guidance_activity_fragment,
+            R.drawable.guidance_activity_fra,
     };
 
     Class<?>[] classes = {
             LauncherActivity.class,
             LauncherActivity.class,
+            LauncherActivityAndFragment.class,
             LauncherActivityAndFragment.class
     };
     @Override

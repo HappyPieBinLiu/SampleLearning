@@ -12,6 +12,7 @@ public class LauncherActivityAndFragment extends android.app.LauncherActivity {
             "用PreferenceActivity实现参数设置界面",
             "用Bundle保存注册信息",
             "启动Activity通过startActivityForResult，传递数据，返回数据",
+            "显示图书详细信息Fragment，两个页面的Layout样式",
     };
 
     Class<?>[] classes = {
@@ -20,6 +21,7 @@ public class LauncherActivityAndFragment extends android.app.LauncherActivity {
             PreferenceTestActivity.class,
             PutextrasBundleActivity.class,
             StartActivityForResultActivity.class,
+            BookTwopaneActivity.class,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
