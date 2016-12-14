@@ -88,8 +88,10 @@
         <activity android:name=".Activity.getextrasBundleActivity"/>
         <activity android:name=".Activity.StartActivityForResultActivity"/>
         <activity android:name=".Activity.SelectCityActivity"/>
-        <activity android:name=".Activity.BookTwopaneActivity">
-        </activity>
+        <activity android:name=".Activity.BookTwopaneActivity"/>
+        <activity android:name=".Activity.BookListActivity"/>
+        <activity android:name=".Activity.BookDetailActivity"/>
+
     </application>
 
 </manifest>

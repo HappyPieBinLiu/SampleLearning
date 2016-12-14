@@ -6,18 +6,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+   <!-- <LinearLayout
+        android:background="@drawable/background_simple_border"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+        <ImageView
+            android:background="@drawable/main4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:background="@drawable/main6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/background_gradient_border"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+        <ImageView
+            android:background="@drawable/main1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:background="@drawable/main2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>-->
     <ImageView
-        android:background="@drawable/start_your_learning"
-        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/main1"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/go"
-        android:layout_gravity="center"
-        android:textSize="30sp"
-        android:background="@color/colorRGB112"
-        android:textColor="@color/colorRGB163"
-        android:text="let' Go"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"/>
+    <TextView
+        android:background="@drawable/background_simple_border"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Android学习*入门版"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textColor="@color/colorRGB162"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:id="@+id/go"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textSize="25sp"
+        android:background="@drawable/main2"
+        android:textColor="@color/colorRGB259"
+        android:text="      让我们单击开始学习之旅吧"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
 </LinearLayout>
