@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.happypiebinliu.samplelearning.UI.Menu.PopupMenuActivity">
+    tools:context="com.happypiebinliu.samplelearning.ActivityUI.Menu.PopupMenuActivity">
     <Button
         android:text="Click Me 8888888"
         android:onClick="onPopupClick"

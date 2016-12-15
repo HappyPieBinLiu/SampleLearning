@@ -2,8 +2,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+    <!-- 定义轨道背景-->
     <item android:id = "@android:id/background"
-        android:drawable="@drawable/errormark"/>
+        android:drawable="@color/colorRGB21"/>
+    <!-- 定义轨道上已经完成部分的外观-->
     <item android:id = "@android:id/progress"
           android:drawable="@drawable/adapterview_rightmark"/>
 </layer-list>

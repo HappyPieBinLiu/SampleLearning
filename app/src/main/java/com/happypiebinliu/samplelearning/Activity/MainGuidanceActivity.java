@@ -28,7 +28,7 @@ public class MainGuidanceActivity extends AppCompatActivity {
             LauncherActivity.class,
             LauncherActivity.class,
             LauncherActivityAndFragment.class,
-            LauncherActivityAndFragment.class
+            LauncherIntentResourceActivity.class
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

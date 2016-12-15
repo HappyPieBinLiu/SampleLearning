@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
-import com.happypiebinliu.samplelearning.Event.ConfigurationActivity;
-import com.happypiebinliu.samplelearning.UI.AdapterView.ExpandableListViewActivity;
+import com.happypiebinliu.samplelearning.ActivityEvent.ConfigurationActivity;
+import com.happypiebinliu.samplelearning.ActivityUI.AdapterView.ExpandableListViewActivity;
 
 public class LauncherActivity extends android.app.LauncherActivity {
 

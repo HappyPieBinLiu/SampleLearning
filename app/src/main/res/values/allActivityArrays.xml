@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ActivityList">
+        <item>ValuesResColorStringDimenActivity</item>
+        <item>ValuesResColorStringDimenActivity</item>
+        <item>ValuesResColorStringDimenActivity</item>
+        <item>ValuesResColorStringDimenActivity</item>
+    </string-array>
+
+    <string-array name="IntentResActivityListName">
+        <item>字符串，颜色，尺寸的资源文件 测试(ValuesResColorStringDimenActivity)</item>
+        <item>StateListDrawable资源文件selector 测试(StateListDrawableActivity)</item>
+        <item>LayerListDrawable资源文件(seekBar) 测试(SeekBarActivity)</item>
+        <item>LayerListDrawable资源文件(层叠logo) 测试(SeekBarActivity)</item>
+    </string-array>
+</resources>

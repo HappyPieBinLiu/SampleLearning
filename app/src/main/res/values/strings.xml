@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 字符串，颜色，尺寸的资源文件 测试 -->
+    <string name="ValuesResourceTestName">字符串，颜色，尺寸的资源文件 测试</string>
+
 </resources>
