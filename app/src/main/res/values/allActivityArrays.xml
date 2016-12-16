@@ -12,5 +12,8 @@
         <item>StateListDrawable资源文件selector 测试(StateListDrawableActivity)</item>
         <item>LayerListDrawable资源文件(seekBar) 测试(SeekBarActivity)</item>
         <item>LayerListDrawable资源文件(层叠logo) 测试(SeekBarActivity)</item>
+        <item>ShapeDrawable资源文件  测试(ShapeDrawableActivity)</item>
+        <item>ClipDrawable资源文件(徐徐展开图片)  测试(ClipDrawableActivity)</item>
+        <item>AnimationDrawable资源文件(动画变换)  测试(AnimationDrawableActivity)</item>
     </string-array>
 </resources>

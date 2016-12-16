@@ -98,6 +98,12 @@
         </activity>
         <activity android:name=".ActivityResource.LayerListActivity">
         </activity>
+        <activity android:name=".ActivityResource.ShapeDrawableActivity">
+        </activity>
+        <activity android:name=".ActivityResource.ClipDrawableActivity">
+        </activity>
+        <activity android:name=".ActivityResource.AnimationDrawableActivity">
+        </activity>
     </application>
 
 </manifest>
