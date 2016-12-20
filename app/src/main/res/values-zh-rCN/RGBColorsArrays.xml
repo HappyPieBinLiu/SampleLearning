@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allColorListName">
+        <item name="itemRGB1">#FFFFFF</item>
+        <item name="itemRGB2">#FFFAFA</item>
+        <item name="itemRGB3">#FFF68F</item>
+        <item name="itemRGB4">#FFEFD5</item>
+        <item name="itemRGB5">#FFE4E1</item>
+        <item name="itemRGB6">#FFDEAD</item>
+        <item name="itemRGB7">#FFC1C1</item>
+        <item name="itemRGB8">#FFB90F</item>
+        <item name="itemRGB9">#FFA54F</item>
+        <item name="itemRGB10">#FF8C00</item>
+        <item name="itemRGB11">#FF7F50</item>
+        <item name="itemRGB12">#FF6EB4</item>
+        <item name="itemRGB13">#FF4500</item>
+        <item name="itemRGB14">#FF3030</item>
+        <item name="itemRGB15">#FDF5E6</item>
+        <item name="itemRGB16">#FAF0E6</item>
+        <item name="itemRGB17">#F7F7F7</item>
+        <item name="itemRGB18">#F5DEB3</item>
+        <item name="itemRGB19">#F0FFFF</item>
+        <item name="itemRGB20">#F0E68C</item>
+        <item name="itemRGB21">#EEEE00</item>
+        <item name="itemRGB22">#EEE8AA</item>
+        <item name="itemRGB23">#EEDFCC</item>
+        <item name="itemRGB24">#EED5B7</item>
+        <item name="itemRGB25">#EEC900</item>
+        <item name="itemRGB26">#EEAEEE</item>
+        <item name="itemRGB27">#EE9A49</item>
+        <item name="itemRGB28">#EE8262</item>
+        <item name="itemRGB29">#EE7621</item>
+        <item name="itemRGB30">#EE6363</item>
+        <item name="itemRGB31">#EE3A8C</item>
+        <item name="itemRGB32">#EE00EE</item>
+        <item name="itemRGB33">#EAEAEA</item>
+        <item name="itemRGB34">#E5E5E5</item>
+        <item name="itemRGB35">#E0EEE0</item>
+        <item name="itemRGB36">#DEB887</item>
+        <item name="itemRGB37">#DBDBDB</item>
+        <item name="itemRGB38">#D9D9D9</item>
+        <item name="itemRGB39">#D3D3D3</item>
+        <item name="itemRGB40">#D1D1D1</item>
+        <item name="itemRGB41">#CDCDC1</item>
+        <item name="itemRGB42">#CDC9A5</item>
+        <item name="itemRGB43">#CDC1C5</item>
+        <item name="itemRGB44">#CDB7B5</item>
+        <item name="itemRGB45">#CDAF95</item>
+        <item name="itemRGB46">#CD9B1D</item>
+        <item name="itemRGB47">#CD8C95</item>
+        <item name="itemRGB48">#CD7054</item>
+        <item name="itemRGB49">#CD661D</item>
+        <item name="itemRGB50">#CD5B45</item>
+        <item name="itemRGB51">#CD3333</item>
+        <item name="itemRGB52">#CD1076</item>
+        <item name="itemRGB53">#CAFF70</item>
+        <item name="itemRGB54">#C71585</item>
+        <item name="itemRGB55">#C4C4C4</item>
+        <item name="itemRGB56">#C1CDC1</item>
+        <item name="itemRGB57">#BFBFBF</item>
+        <item name="itemRGB58">#BDB76B</item>
+        <item name="itemRGB59">#BBFFFF</item>
+        <item name="itemRGB60">#B8B8B8</item>
+        <item name="itemRGB61">#B4EEB4</item>
+        <item name="itemRGB62">#B3B3B3</item>
+        <item name="itemRGB63">#B0E2FF</item>
+        <item name="itemRGB64">#B03060</item>
+        <item name="itemRGB65">#ADADAD</item>
+        <item name="itemRGB66">#A9A9A9</item>
+        <item name="itemRGB67">#A4D3EE</item>
+        <item name="itemRGB68">#A1A1A1</item>
+        <item name="itemRGB69">#9F79EE</item>
+        <item name="itemRGB70">#9B30FF</item>
+        <item name="itemRGB71">#9A32CD</item>
+        <item name="itemRGB72">#98F5FF</item>
+        <item name="itemRGB73">#949494</item>
+        <item name="itemRGB74">#912CEE</item>
+        <item name="itemRGB75">#8EE5EE</item>
+        <item name="itemRGB76">#8DEEEE</item>
+        <item name="itemRGB77">#8B8B7A</item>
+        <item name="itemRGB78">#8B8878</item>
+        <item name="itemRGB79">#8B8378</item>
+        <item name="itemRGB80">#8B7D6B</item>
+        <item name="itemRGB81">#8B7500</item>
+        <item name="itemRGB82">#8B668B</item>
+        <item name="itemRGB83">#8B5A2B</item>
+        <item name="itemRGB84">#8B4789</item>
+        <item name="itemRGB85">#8B4500</item>
+        <item name="itemRGB86">#8B3626</item>
+        <item name="itemRGB87">#8B1C62</item>
+        <item name="itemRGB88">#8B0000</item>
+        <item name="itemRGB89">#87CEFF</item>
+        <item name="itemRGB90">#858585</item>
+        <item name="itemRGB91">#838B83</item>
+        <item name="itemRGB92">#7FFF00</item>
+        <item name="itemRGB93">#7D7D7D</item>
+        <item name="itemRGB94">#7B68EE</item>
+        <item name="itemRGB95">#7A67EE</item>
+        <item name="itemRGB96">#778899</item>
+        <item name="itemRGB97">#737373</item>
+        <item name="itemRGB98">#707070</item>
+        <item name="itemRGB99">#6CA6CD</item>
+        <item name="itemRGB100">#6A5ACD</item>
+        <item name="itemRGB101">#6959CD</item>
+        <item name="itemRGB102">#66CD00</item>
+        <item name="itemRGB103">#63B8FF</item>
+        <item name="itemRGB104">#5F9EA0</item>
+        <item name="itemRGB105">#5C5C5C</item>
+        <item name="itemRGB106">#556B2F</item>
+        <item name="itemRGB107">#548B54</item>
+        <item name="itemRGB108">#525252</item>
+        <item name="itemRGB109">#4EEE94</item>
+        <item name="itemRGB110">#4A4A4A</item>
+        <item name="itemRGB111">#474747</item>
+        <item name="itemRGB112">#458B00</item>
+        <item name="itemRGB113">#424242</item>
+        <item name="itemRGB114">#3D3D3D</item>
+        <item name="itemRGB115">#388E8E</item>
+        <item name="itemRGB116">#333333</item>
+        <item name="itemRGB117">#2E8B57</item>
+        <item name="itemRGB118">#282828</item>
+        <item name="itemRGB119">#228B22</item>
+        <item name="itemRGB120">#1F1F1F</item>
+        <item name="itemRGB121">#1C1C1C</item>
+        <item name="itemRGB122">#171717</item>
+        <item name="itemRGB123">#0F0F0F</item>
+        <item name="itemRGB124">#050505</item>
+        <item name="itemRGB125">#00FF00</item>
+        <item name="itemRGB126">#00EE76</item>
+        <item name="itemRGB127">#00CDCD</item>
+        <item name="itemRGB128">#00BFFF</item>
+        <item name="itemRGB129">#008B45</item>
+        <item name="itemRGB130">#006400</item>
+        <item name="itemRGB131">#0000AA</item>
+        <item name="itemRGB132">#FFFFF0</item>
+        <item name="itemRGB133">#FFFAF0</item>
+        <item name="itemRGB134">#FFF5EE</item>
+        <item name="itemRGB135">#FFEC8B</item>
+        <item name="itemRGB136">#FFE4C4</item>
+        <item name="itemRGB137">#FFDAB9</item>
+        <item name="itemRGB138">#FFC125</item>
+        <item name="itemRGB139">#FFB6C1</item>
+        <item name="itemRGB140">#FFA500</item>
+        <item name="itemRGB141">#FF83FA</item>
+        <item name="itemRGB142">#FF7F24</item>
+        <item name="itemRGB143">#FF6A6A</item>
+        <item name="itemRGB144">#FF4040</item>
+        <item name="itemRGB145">#FF1493</item>
+        <item name="itemRGB146">#FCFCFC</item>
+        <item name="itemRGB147">#FAEBD7</item>
+        <item name="itemRGB148">#F5FFFA</item>
+        <item name="itemRGB149">#F4F4F4</item>
+        <item name="itemRGB150">#F0FFF0</item>
+        <item name="itemRGB151">#F08080</item>
+        <item name="itemRGB152">#EEE9E9</item>
+        <item name="itemRGB153">#EEE685</item>
+        <item name="itemRGB154">#EEDC82</item>
+        <item name="itemRGB155">#EED2EE</item>
+        <item name="itemRGB156">#EEC591</item>
+        <item name="itemRGB157">#EEAD0E</item>
+        <item name="itemRGB158">#EE9A00</item>
+        <item name="itemRGB159">#EE7AE9</item>
+        <item name="itemRGB160">#EE7600</item>
+        <item name="itemRGB161">#EE5C42</item>
+        <item name="itemRGB162">#EE30A7</item>
+        <item name="itemRGB163">#EE0000</item>
+        <item name="itemRGB164">#E9967A</item>
+        <item name="itemRGB165">#E3E3E3</item>
+        <item name="itemRGB166">#E0E0E0</item>
+        <item name="itemRGB167">#DDA0DD</item>
+        <item name="itemRGB168">#DB7093</item>
+        <item name="itemRGB169">#D8BFD8</item>
+        <item name="itemRGB170">#D2B48C</item>
+        <item name="itemRGB171">#D15FEE</item>
+        <item name="itemRGB172">#CDCDB4</item>
+        <item name="itemRGB173">#CDC8B1</item>
+        <item name="itemRGB174">#CDC0B0</item>
+        <item name="itemRGB175">#CDB79E</item>
+        <item name="itemRGB176">#CDAD00</item>
+        <item name="itemRGB177">#CD96CD</item>
+        <item name="itemRGB178">#CD853F</item>
+        <item name="itemRGB179">#CD69C9</item>
+        <item name="itemRGB180">#CD6600</item>
+        <item name="itemRGB181">#CD5555</item>
+        <item name="itemRGB182">#CD3278</item>
+        <item name="itemRGB183">#CD00CD</item>
+        <item name="itemRGB184">#CAE1FF</item>
+        <item name="itemRGB185">#C6E2FF</item>
+        <item name="itemRGB186">#C2C2C2</item>
+        <item name="itemRGB187">#C1C1C1</item>
+        <item name="itemRGB188">#BF3EFF</item>
+        <item name="itemRGB189">#BCEE68</item>
+        <item name="itemRGB190">#BABABA</item>
+        <item name="itemRGB191">#B8860B</item>
+        <item name="itemRGB192">#B4CDCD</item>
+        <item name="itemRGB193">#B2DFEE</item>
+        <item name="itemRGB194">#B0E0E6</item>
+        <item name="itemRGB195">#AEEEEE</item>
+        <item name="itemRGB196">#ABABAB</item>
+        <item name="itemRGB197">#A8A8A8</item>
+        <item name="itemRGB198">#A3A3A3</item>
+        <item name="itemRGB199">#A0522D</item>
+        <item name="itemRGB200">#9E9E9E</item>
+        <item name="itemRGB201">#9AFF9A</item>
+        <item name="itemRGB202">#999999</item>
+        <item name="itemRGB203">#97FFFF</item>
+        <item name="itemRGB204">#9400D3</item>
+        <item name="itemRGB205">#90EE90</item>
+        <item name="itemRGB206">#8E8E8E</item>
+        <item name="itemRGB207">#8DB6CD</item>
+        <item name="itemRGB208">#8B8B00</item>
+        <item name="itemRGB209">#8B8682</item>
+        <item name="itemRGB210">#8B814C</item>
+        <item name="itemRGB211">#8B7B8B</item>
+        <item name="itemRGB212">#8B7355</item>
+        <item name="itemRGB213">#8B6508</item>
+        <item name="itemRGB214">#8B5A00</item>
+        <item name="itemRGB215">#8B475D</item>
+        <item name="itemRGB216">#8B3E2F</item>
+        <item name="itemRGB217">#8B2500</item>
+        <item name="itemRGB218">#8B1A1A</item>
+        <item name="itemRGB219">#8A8A8A</item>
+        <item name="itemRGB220">#87CEFA</item>
+        <item name="itemRGB221">#848484</item>
+        <item name="itemRGB222">#836FFF</item>
+        <item name="itemRGB223">#7F7F7F</item>
+        <item name="itemRGB224">#7D26CD</item>
+        <item name="itemRGB225">#7AC5CD</item>
+        <item name="itemRGB226">#7A378B</item>
+        <item name="itemRGB227">#76EEC6</item>
+        <item name="itemRGB228">#71C671</item>
+        <item name="itemRGB229">#6E8B3D</item>
+        <item name="itemRGB230">#6C7B8B</item>
+        <item name="itemRGB231">#698B69</item>
+        <item name="itemRGB232">#68838B</item>
+        <item name="itemRGB233">#668B8B</item>
+        <item name="itemRGB234">#636363</item>
+        <item name="itemRGB235">#5E5E5E</item>
+        <item name="itemRGB236">#5B5B5B</item>
+        <item name="itemRGB237">#555555</item>
+        <item name="itemRGB238">#545454</item>
+        <item name="itemRGB239">#515151</item>
+        <item name="itemRGB240">#4D4D4D</item>
+        <item name="itemRGB241">#48D1CC</item>
+        <item name="itemRGB242">#473C8B</item>
+        <item name="itemRGB243">#454545</item>
+        <item name="itemRGB244">#4169E1</item>
+        <item name="itemRGB245">#3CB371</item>
+        <item name="itemRGB246">#383838</item>
+        <item name="itemRGB247">#32CD32</item>
+        <item name="itemRGB248">#2E2E2E</item>
+        <item name="itemRGB249">#27408B</item>
+        <item name="itemRGB250">#218868</item>
+        <item name="itemRGB251">#1E90FF</item>
+        <item name="itemRGB252">#1A1A1A</item>
+        <item name="itemRGB253">#141414</item>
+        <item name="itemRGB254">#0D0D0D</item>
+        <item name="itemRGB255">#030303</item>
+        <item name="itemRGB256">#00FA9A</item>
+        <item name="itemRGB257">#00EE00</item>
+        <item name="itemRGB258">#00CD66</item>
+        <item name="itemRGB259">#00B2EE</item>
+        <item name="itemRGB260">#008B00</item>
+        <item name="itemRGB261">#0000FF</item>
+        <item name="itemRGB262">#00008B</item>
+        <item name="itemRGB263">#FFFFE0</item>
+        <item name="itemRGB264">#FFFACD</item>
+        <item name="itemRGB265">#FFF0F5</item>
+        <item name="itemRGB266">#FFEBCD</item>
+        <item name="itemRGB267">#FFE4B5</item>
+        <item name="itemRGB268">#FFD700</item>
+        <item name="itemRGB269">#FFC0CB</item>
+        <item name="itemRGB270">#FFB5C5</item>
+        <item name="itemRGB271">#FFA07A</item>
+        <item name="itemRGB272">#FF82AB</item>
+        <item name="itemRGB273">#FF7F00</item>
+        <item name="itemRGB274">#FF69B4</item>
+        <item name="itemRGB275">#FF3E96</item>
+        <item name="itemRGB276">#FF00FF</item>
+        <item name="itemRGB277">#FAFAFA</item>
+        <item name="itemRGB278">#FA8072</item>
+        <item name="itemRGB279">#F5F5F5</item>
+        <item name="itemRGB280">#F4A460</item>
+        <item name="itemRGB281">#F0F8FF</item>
+        <item name="itemRGB282">#EEEEE0</item>
+        <item name="itemRGB283">#EEE9BF</item>
+        <item name="itemRGB284">#EEE5DE</item>
+        <item name="itemRGB285">#EED8AE</item>
+        <item name="itemRGB286">#EECFA1</item>
+        <item name="itemRGB287">#EEB4B4</item>
+        <item name="itemRGB288">#EEA9B8</item>
+        <item name="itemRGB289">#EE9572</item>
+        <item name="itemRGB290">#EE799F</item>
+        <item name="itemRGB291">#EE6AA7</item>
+        <item name="itemRGB292">#EE4000</item>
+        <item name="itemRGB293">#EE2C2C</item>
+        <item name="itemRGB294">#EDEDED</item>
+        <item name="itemRGB295">#E8E8E8</item>
+        <item name="itemRGB296">#E0FFFF</item>
+        <item name="itemRGB297">#E066FF</item>
+        <item name="itemRGB298">#DCDCDC</item>
+        <item name="itemRGB299">#DAA520</item>
+        <item name="itemRGB300">#D6D6D6</item>
+        <item name="itemRGB301">#D2691E</item>
+        <item name="itemRGB302">#D02090</item>
+        <item name="itemRGB303">#CDCD00</item>
+        <item name="itemRGB304">#CDC673</item>
+        <item name="itemRGB305">#CDBE70</item>
+        <item name="itemRGB306">#CDB5CD</item>
+        <item name="itemRGB307">#CDAA7D</item>
+        <item name="itemRGB308">#CD950C</item>
+        <item name="itemRGB309">#CD8500</item>
+        <item name="itemRGB310">#CD6889</item>
+        <item name="itemRGB311">#CD6090</item>
+        <item name="itemRGB312">#CD4F39</item>
+        <item name="itemRGB313">#CD2990</item>
+        <item name="itemRGB314">#CD0000</item>
+        <item name="itemRGB315">#C9C9C9</item>
+        <item name="itemRGB316">#C67171</item>
+        <item name="itemRGB317">#C1FFC1</item>
+        <item name="itemRGB318">#C0FF3E</item>
+        <item name="itemRGB319">#BEBEBE</item>
+        <item name="itemRGB320">#BCD2EE</item>
+        <item name="itemRGB321">#BA55D3</item>
+        <item name="itemRGB322">#B7B7B7</item>
+        <item name="itemRGB323">#B452CD</item>
+        <item name="itemRGB324">#B23AEE</item>
+        <item name="itemRGB325">#B0C4DE</item>
+        <item name="itemRGB326">#ADFF2F</item>
+        <item name="itemRGB327">#AB82FF</item>
+        <item name="itemRGB328">#A6A6A6</item>
+        <item name="itemRGB329">#A2CD5A</item>
+        <item name="itemRGB330">#A020F0</item>
+        <item name="itemRGB331">#9C9C9C</item>
+        <item name="itemRGB332">#9ACD32</item>
+        <item name="itemRGB333">#9932CC</item>
+        <item name="itemRGB334">#96CDCD</item>
+        <item name="itemRGB335">#9370DB</item>
+        <item name="itemRGB336">#8FBC8F</item>
+        <item name="itemRGB337">#8E8E38</item>
+        <item name="itemRGB338">#8C8C8C</item>
+        <item name="itemRGB339">#8B8989</item>
+        <item name="itemRGB340">#8B864E</item>
+        <item name="itemRGB341">#8B7E66</item>
+        <item name="itemRGB342">#8B795E</item>
+        <item name="itemRGB343">#8B6969</item>
+        <item name="itemRGB344">#8B636C</item>
+        <item name="itemRGB345">#8B5742</item>
+        <item name="itemRGB346">#8B4726</item>
+        <item name="itemRGB347">#8B3A62</item>
+        <item name="itemRGB348">#8B2323</item>
+        <item name="itemRGB349">#8B0A50</item>
+        <item name="itemRGB350">#8A2BE2</item>
+        <item name="itemRGB351">#87CEEB</item>
+        <item name="itemRGB352">#8470FF</item>
+        <item name="itemRGB353">#828282</item>
+        <item name="itemRGB354">#7EC0EE</item>
+        <item name="itemRGB355">#7CFC00</item>
+        <item name="itemRGB356">#7A8B8B</item>
+        <item name="itemRGB357">#79CDCD</item>
+        <item name="itemRGB358">#76EE00</item>
+        <item name="itemRGB359">#7171C6</item>
+        <item name="itemRGB360">#6E7B8B</item>
+        <item name="itemRGB361">#6B8E23</item>
+        <item name="itemRGB362">#698B22</item>
+        <item name="itemRGB363">#68228B</item>
+        <item name="itemRGB364">#666666</item>
+        <item name="itemRGB365">#616161</item>
+        <item name="itemRGB366">#5D478B</item>
+        <item name="itemRGB367">#595959</item>
+        <item name="itemRGB368">#551A8B</item>
+        <item name="itemRGB369">#53868B</item>
+        <item name="itemRGB370">#4F94CD</item>
+        <item name="itemRGB371">#4B0082</item>
+        <item name="itemRGB372">#4876FF</item>
+        <item name="itemRGB373">#4682B4</item>
+        <item name="itemRGB374">#43CD80</item>
+        <item name="itemRGB375">#40E0D0</item>
+        <item name="itemRGB376">#3B3B3B</item>
+        <item name="itemRGB377">#36648B</item>
+        <item name="itemRGB378">#303030</item>
+        <item name="itemRGB379">#2B2B2B</item>
+        <item name="itemRGB380">#262626</item>
+        <item name="itemRGB381">#212121</item>
+        <item name="itemRGB382">#1E1E1E</item>
+        <item name="itemRGB383">#191970</item>
+        <item name="itemRGB384">#121212</item>
+        <item name="itemRGB385">#0A0A0A</item>
+        <item name="itemRGB386">#00FFFF</item>
+        <item name="itemRGB387">#00F5FF</item>
+        <item name="itemRGB388">#00E5EE</item>
+        <item name="itemRGB389">#00CD00</item>
+        <item name="itemRGB390">#009ACD</item>
+        <item name="itemRGB391">#00868B</item>
+        <item name="itemRGB392">#0000EE</item>
+        <item name="itemRGB393">#000080</item>
+        <item name="itemRGB394">#FFFF00</item>
+        <item name="itemRGB395">#FFF8DC</item>
+        <item name="itemRGB396">#FFEFDB</item>
+        <item name="itemRGB397">#FFE7BA</item>
+        <item name="itemRGB398">#FFE1FF</item>
+        <item name="itemRGB399">#FFD39B</item>
+        <item name="itemRGB400">#FFBBFF</item>
+        <item name="itemRGB401">#FFAEB9</item>
+        <item name="itemRGB402">#FF8C69</item>
+        <item name="itemRGB403">#FF8247</item>
+        <item name="itemRGB404">#FF7256</item>
+        <item name="itemRGB405">#FF6347</item>
+        <item name="itemRGB406">#FF34B3</item>
+        <item name="itemRGB407">#FF0000</item>
+        <item name="itemRGB408">#FAFAD2</item>
+        <item name="itemRGB409">#F8F8FF</item>
+        <item name="itemRGB410">#F5F5DC</item>
+        <item name="itemRGB411">#F2F2F2</item>
+        <item name="itemRGB412">#F0F0F0</item>
+        <item name="itemRGB413">#EEEED1</item>
+        <item name="itemRGB414">#EEE8CD</item>
+        <item name="itemRGB415">#EEE0E5</item>
+        <item name="itemRGB416">#EED5D2</item>
+        <item name="itemRGB417">#EECBAD</item>
+        <item name="itemRGB418">#EEB422</item>
+        <item name="itemRGB419">#EEA2AD</item>
+        <item name="itemRGB420">#EE82EE</item>
+        <item name="itemRGB421">#EE7942</item>
+        <item name="itemRGB422">#EE6A50</item>
+        <item name="itemRGB423">#EE3B3B</item>
+        <item name="itemRGB424">#EE1289</item>
+        <item name="itemRGB425">#EBEBEB</item>
+        <item name="itemRGB426">#E6E6FA</item>
+        <item name="itemRGB427">#E0EEEE</item>
+        <item name="itemRGB428">#DEDEDE</item>
+        <item name="itemRGB429">#DC143C</item>
+        <item name="itemRGB430">#DA70D6</item>
+        <item name="itemRGB431">#D4D4D4</item>
+        <item name="itemRGB432">#D1EEEE</item>
+        <item name="itemRGB433">#CFCFCF</item>
+        <item name="itemRGB434">#CDC9C9</item>
+        <item name="itemRGB435">#CDC5BF</item>
+        <item name="itemRGB436">#CDBA96</item>
+        <item name="itemRGB437">#CDB38B</item>
+        <item name="itemRGB438">#CD9B9B</item>
+        <item name="itemRGB439">#CD919E</item>
+        <item name="itemRGB440">#CD8162</item>
+        <item name="itemRGB441">#CD6839</item>
+        <item name="itemRGB442">#CD5C5C</item>
+        <item name="itemRGB443">#CD3700</item>
+        <item name="itemRGB444">#CD2626</item>
+        <item name="itemRGB445">#CCCCCC</item>
+        <item name="itemRGB446">#C7C7C7</item>
+        <item name="itemRGB447">#C5C1AA</item>
+        <item name="itemRGB448">#C1CDCD</item>
+        <item name="itemRGB449">#BFEFFF</item>
+        <item name="itemRGB450">#BDBDBD</item>
+        <item name="itemRGB451">#BC8F8F</item>
+        <item name="itemRGB452">#B9D3EE</item>
+        <item name="itemRGB453">#B5B5B5</item>
+        <item name="itemRGB454">#B3EE3A</item>
+        <item name="itemRGB455">#B22222</item>
+        <item name="itemRGB456">#B0B0B0</item>
+        <item name="itemRGB457">#ADD8E6</item>
+        <item name="itemRGB458">#AAAAAA</item>
+        <item name="itemRGB459">#A52A2A</item>
+        <item name="itemRGB460">#A2B5CD</item>
+        <item name="itemRGB461">#9FB6CD</item>
+        <item name="itemRGB462">#9BCD9B</item>
+        <item name="itemRGB463">#9AC0CD</item>
+        <item name="itemRGB464">#98FB98</item>
+        <item name="itemRGB465">#969696</item>
+        <item name="itemRGB466">#919191</item>
+        <item name="itemRGB467">#8F8F8F</item>
+        <item name="itemRGB468">#8E388E</item>
+        <item name="itemRGB469">#8B8B83</item>
+        <item name="itemRGB470">#8B8970</item>
+        <item name="itemRGB471">#8B8386</item>
+        <item name="itemRGB472">#8B7D7B</item>
+        <item name="itemRGB473">#8B7765</item>
+        <item name="itemRGB474">#8B6914</item>
+        <item name="itemRGB475">#8B5F65</item>
+        <item name="itemRGB476">#8B4C39</item>
+        <item name="itemRGB477">#8B4513</item>
+        <item name="itemRGB478">#8B3A3A</item>
+        <item name="itemRGB479">#8B2252</item>
+        <item name="itemRGB480">#8B008B</item>
+        <item name="itemRGB481">#8968CD</item>
+        <item name="itemRGB482">#878787</item>
+        <item name="itemRGB483">#838B8B</item>
+        <item name="itemRGB484">#7FFFD4</item>
+        <item name="itemRGB485">#7D9EC0</item>
+        <item name="itemRGB486">#7CCD7C</item>
+        <item name="itemRGB487">#7A7A7A</item>
+        <item name="itemRGB488">#787878</item>
+        <item name="itemRGB489">#757575</item>
+        <item name="itemRGB490">#708090</item>
+        <item name="itemRGB491">#6E6E6E</item>
+        <item name="itemRGB492">#6B6B6B</item>
+        <item name="itemRGB493">#696969</item>
+        <item name="itemRGB494">#66CDAA</item>
+        <item name="itemRGB495">#6495ED</item>
+        <item name="itemRGB496">#607B8B</item>
+        <item name="itemRGB497">#5CACEE</item>
+        <item name="itemRGB498">#575757</item>
+        <item name="itemRGB499">#54FF9F</item>
+        <item name="itemRGB500">#528B8B</item>
+        <item name="itemRGB501">#4F4F4F</item>
+        <item name="itemRGB502">#4A708B</item>
+        <item name="itemRGB503">#483D8B</item>
+        <item name="itemRGB504">#458B74</item>
+        <item name="itemRGB505">#436EEE</item>
+        <item name="itemRGB506">#404040</item>
+        <item name="itemRGB507">#3A5FCD</item>
+        <item name="itemRGB508">#363636</item>
+        <item name="itemRGB509">#2F4F4F</item>
+        <item name="itemRGB510">#292929</item>
+        <item name="itemRGB511">#242424</item>
+        <item name="itemRGB512">#20B2AA</item>
+        <item name="itemRGB513">#1C86EE</item>
+        <item name="itemRGB514">#1874CD</item>
+        <item name="itemRGB515">#104E8B</item>
+        <item name="itemRGB516">#080808</item>
+        <item name="itemRGB517">#00FF7F</item>
+        <item name="itemRGB518">#00EEEE</item>
+        <item name="itemRGB519">#00CED1</item>
+        <item name="itemRGB520">#00C5CD</item>
+        <item name="itemRGB521">#008B8B</item>
+        <item name="itemRGB522">#00688B</item>
+        <item name="itemRGB523">#0000CD</item>
+        <item name="itemRGB524">#000000</item>
+    </string-array>
+    <array name="allColors">
+        <item>@color/colorRGB1</item>
+        <item>@color/colorRGB2</item>
+        <item>@color/colorRGB3</item>
+        <item>@color/colorRGB4</item>
+        <item>@color/colorRGB5</item>
+        <item>@color/colorRGB6</item>
+        <item>@color/colorRGB7</item>
+        <item>@color/colorRGB8</item>
+        <item>@color/colorRGB9</item>
+        <item>@color/colorRGB10</item>
+        <item>@color/colorRGB11</item>
+        <item>@color/colorRGB12</item>
+        <item>@color/colorRGB13</item>
+        <item>@color/colorRGB14</item>
+        <item>@color/colorRGB15</item>
+        <item>@color/colorRGB16</item>
+        <item>@color/colorRGB17</item>
+        <item>@color/colorRGB18</item>
+        <item>@color/colorRGB19</item>
+        <item>@color/colorRGB20</item>
+        <item>@color/colorRGB21</item>
+        <item>@color/colorRGB22</item>
+        <item>@color/colorRGB23</item>
+        <item>@color/colorRGB24</item>
+        <item>@color/colorRGB25</item>
+        <item>@color/colorRGB26</item>
+        <item>@color/colorRGB27</item>
+        <item>@color/colorRGB28</item>
+        <item>@color/colorRGB29</item>
+        <item>@color/colorRGB30</item>
+        <item>@color/colorRGB31</item>
+        <item>@color/colorRGB32</item>
+        <item>@color/colorRGB33</item>
+        <item>@color/colorRGB34</item>
+        <item>@color/colorRGB35</item>
+        <item>@color/colorRGB36</item>
+        <item>@color/colorRGB37</item>
+        <item>@color/colorRGB38</item>
+        <item>@color/colorRGB39</item>
+        <item>@color/colorRGB40</item>
+        <item>@color/colorRGB41</item>
+        <item>@color/colorRGB42</item>
+        <item>@color/colorRGB43</item>
+        <item>@color/colorRGB44</item>
+        <item>@color/colorRGB45</item>
+        <item>@color/colorRGB46</item>
+        <item>@color/colorRGB47</item>
+        <item>@color/colorRGB48</item>
+        <item>@color/colorRGB49</item>
+        <item>@color/colorRGB50</item>
+        <item>@color/colorRGB51</item>
+        <item>@color/colorRGB52</item>
+        <item>@color/colorRGB53</item>
+        <item>@color/colorRGB54</item>
+        <item>@color/colorRGB55</item>
+        <item>@color/colorRGB56</item>
+        <item>@color/colorRGB57</item>
+        <item>@color/colorRGB58</item>
+        <item>@color/colorRGB59</item>
+        <item>@color/colorRGB60</item>
+        <item>@color/colorRGB61</item>
+        <item>@color/colorRGB62</item>
+        <item>@color/colorRGB63</item>
+        <item>@color/colorRGB64</item>
+        <item>@color/colorRGB65</item>
+        <item>@color/colorRGB66</item>
+        <item>@color/colorRGB67</item>
+        <item>@color/colorRGB68</item>
+        <item>@color/colorRGB69</item>
+        <item>@color/colorRGB70</item>
+        <item>@color/colorRGB71</item>
+        <item>@color/colorRGB72</item>
+        <item>@color/colorRGB73</item>
+        <item>@color/colorRGB74</item>
+        <item>@color/colorRGB75</item>
+        <item>@color/colorRGB76</item>
+        <item>@color/colorRGB77</item>
+        <item>@color/colorRGB78</item>
+        <item>@color/colorRGB79</item>
+        <item>@color/colorRGB80</item>
+        <item>@color/colorRGB81</item>
+        <item>@color/colorRGB82</item>
+        <item>@color/colorRGB83</item>
+        <item>@color/colorRGB84</item>
+        <item>@color/colorRGB85</item>
+        <item>@color/colorRGB86</item>
+        <item>@color/colorRGB87</item>
+        <item>@color/colorRGB88</item>
+        <item>@color/colorRGB89</item>
+        <item>@color/colorRGB90</item>
+        <item>@color/colorRGB91</item>
+        <item>@color/colorRGB92</item>
+        <item>@color/colorRGB93</item>
+        <item>@color/colorRGB94</item>
+        <item>@color/colorRGB95</item>
+        <item>@color/colorRGB96</item>
+        <item>@color/colorRGB97</item>
+        <item>@color/colorRGB98</item>
+        <item>@color/colorRGB99</item>
+        <item>@color/colorRGB100</item>
+        <item>@color/colorRGB101</item>
+        <item>@color/colorRGB102</item>
+        <item>@color/colorRGB103</item>
+        <item>@color/colorRGB104</item>
+        <item>@color/colorRGB105</item>
+        <item>@color/colorRGB106</item>
+        <item>@color/colorRGB107</item>
+        <item>@color/colorRGB108</item>
+        <item>@color/colorRGB109</item>
+        <item>@color/colorRGB110</item>
+        <item>@color/colorRGB111</item>
+        <item>@color/colorRGB112</item>
+        <item>@color/colorRGB113</item>
+        <item>@color/colorRGB114</item>
+        <item>@color/colorRGB115</item>
+        <item>@color/colorRGB116</item>
+        <item>@color/colorRGB117</item>
+        <item>@color/colorRGB118</item>
+        <item>@color/colorRGB119</item>
+        <item>@color/colorRGB120</item>
+        <item>@color/colorRGB121</item>
+        <item>@color/colorRGB122</item>
+        <item>@color/colorRGB123</item>
+        <item>@color/colorRGB124</item>
+        <item>@color/colorRGB125</item>
+        <item>@color/colorRGB126</item>
+        <item>@color/colorRGB127</item>
+        <item>@color/colorRGB128</item>
+        <item>@color/colorRGB129</item>
+        <item>@color/colorRGB130</item>
+        <item>@color/colorRGB131</item>
+        <item>@color/colorRGB132</item>
+        <item>@color/colorRGB133</item>
+        <item>@color/colorRGB134</item>
+        <item>@color/colorRGB135</item>
+        <item>@color/colorRGB136</item>
+        <item>@color/colorRGB137</item>
+        <item>@color/colorRGB138</item>
+        <item>@color/colorRGB139</item>
+        <item>@color/colorRGB140</item>
+        <item>@color/colorRGB141</item>
+        <item>@color/colorRGB142</item>
+        <item>@color/colorRGB143</item>
+        <item>@color/colorRGB144</item>
+        <item>@color/colorRGB145</item>
+        <item>@color/colorRGB146</item>
+        <item>@color/colorRGB147</item>
+        <item>@color/colorRGB148</item>
+        <item>@color/colorRGB149</item>
+        <item>@color/colorRGB150</item>
+        <item>@color/colorRGB151</item>
+        <item>@color/colorRGB152</item>
+        <item>@color/colorRGB153</item>
+        <item>@color/colorRGB154</item>
+        <item>@color/colorRGB155</item>
+        <item>@color/colorRGB156</item>
+        <item>@color/colorRGB157</item>
+        <item>@color/colorRGB158</item>
+        <item>@color/colorRGB159</item>
+        <item>@color/colorRGB160</item>
+        <item>@color/colorRGB161</item>
+        <item>@color/colorRGB162</item>
+        <item>@color/colorRGB163</item>
+        <item>@color/colorRGB164</item>
+        <item>@color/colorRGB165</item>
+        <item>@color/colorRGB166</item>
+        <item>@color/colorRGB167</item>
+        <item>@color/colorRGB168</item>
+        <item>@color/colorRGB169</item>
+        <item>@color/colorRGB170</item>
+        <item>@color/colorRGB171</item>
+        <item>@color/colorRGB172</item>
+        <item>@color/colorRGB173</item>
+        <item>@color/colorRGB174</item>
+        <item>@color/colorRGB175</item>
+        <item>@color/colorRGB176</item>
+        <item>@color/colorRGB177</item>
+        <item>@color/colorRGB178</item>
+        <item>@color/colorRGB179</item>
+        <item>@color/colorRGB180</item>
+        <item>@color/colorRGB181</item>
+        <item>@color/colorRGB182</item>
+        <item>@color/colorRGB183</item>
+        <item>@color/colorRGB184</item>
+        <item>@color/colorRGB185</item>
+        <item>@color/colorRGB186</item>
+        <item>@color/colorRGB187</item>
+        <item>@color/colorRGB188</item>
+        <item>@color/colorRGB189</item>
+        <item>@color/colorRGB190</item>
+        <item>@color/colorRGB191</item>
+        <item>@color/colorRGB192</item>
+        <item>@color/colorRGB193</item>
+        <item>@color/colorRGB194</item>
+        <item>@color/colorRGB195</item>
+        <item>@color/colorRGB196</item>
+        <item>@color/colorRGB197</item>
+        <item>@color/colorRGB198</item>
+        <item>@color/colorRGB199</item>
+        <item>@color/colorRGB200</item>
+        <item>@color/colorRGB201</item>
+        <item>@color/colorRGB202</item>
+        <item>@color/colorRGB203</item>
+        <item>@color/colorRGB204</item>
+        <item>@color/colorRGB205</item>
+        <item>@color/colorRGB206</item>
+        <item>@color/colorRGB207</item>
+        <item>@color/colorRGB208</item>
+        <item>@color/colorRGB209</item>
+        <item>@color/colorRGB210</item>
+        <item>@color/colorRGB211</item>
+        <item>@color/colorRGB212</item>
+        <item>@color/colorRGB213</item>
+        <item>@color/colorRGB214</item>
+        <item>@color/colorRGB215</item>
+        <item>@color/colorRGB216</item>
+        <item>@color/colorRGB217</item>
+        <item>@color/colorRGB218</item>
+        <item>@color/colorRGB219</item>
+        <item>@color/colorRGB220</item>
+        <item>@color/colorRGB221</item>
+        <item>@color/colorRGB222</item>
+        <item>@color/colorRGB223</item>
+        <item>@color/colorRGB224</item>
+        <item>@color/colorRGB225</item>
+        <item>@color/colorRGB226</item>
+        <item>@color/colorRGB227</item>
+        <item>@color/colorRGB228</item>
+        <item>@color/colorRGB229</item>
+        <item>@color/colorRGB230</item>
+        <item>@color/colorRGB231</item>
+        <item>@color/colorRGB232</item>
+        <item>@color/colorRGB233</item>
+        <item>@color/colorRGB234</item>
+        <item>@color/colorRGB235</item>
+        <item>@color/colorRGB236</item>
+        <item>@color/colorRGB237</item>
+        <item>@color/colorRGB238</item>
+        <item>@color/colorRGB239</item>
+        <item>@color/colorRGB240</item>
+        <item>@color/colorRGB241</item>
+        <item>@color/colorRGB242</item>
+        <item>@color/colorRGB243</item>
+        <item>@color/colorRGB244</item>
+        <item>@color/colorRGB245</item>
+        <item>@color/colorRGB246</item>
+        <item>@color/colorRGB247</item>
+        <item>@color/colorRGB248</item>
+        <item>@color/colorRGB249</item>
+        <item>@color/colorRGB250</item>
+        <item>@color/colorRGB251</item>
+        <item>@color/colorRGB252</item>
+        <item>@color/colorRGB253</item>
+        <item>@color/colorRGB254</item>
+        <item>@color/colorRGB255</item>
+        <item>@color/colorRGB256</item>
+        <item>@color/colorRGB257</item>
+        <item>@color/colorRGB258</item>
+        <item>@color/colorRGB259</item>
+        <item>@color/colorRGB260</item>
+        <item>@color/colorRGB261</item>
+        <item>@color/colorRGB262</item>
+        <item>@color/colorRGB263</item>
+        <item>@color/colorRGB264</item>
+        <item>@color/colorRGB265</item>
+        <item>@color/colorRGB266</item>
+        <item>@color/colorRGB267</item>
+        <item>@color/colorRGB268</item>
+        <item>@color/colorRGB269</item>
+        <item>@color/colorRGB270</item>
+        <item>@color/colorRGB271</item>
+        <item>@color/colorRGB272</item>
+        <item>@color/colorRGB273</item>
+        <item>@color/colorRGB274</item>
+        <item>@color/colorRGB275</item>
+        <item>@color/colorRGB276</item>
+        <item>@color/colorRGB277</item>
+        <item>@color/colorRGB278</item>
+        <item>@color/colorRGB279</item>
+        <item>@color/colorRGB280</item>
+        <item>@color/colorRGB281</item>
+        <item>@color/colorRGB282</item>
+        <item>@color/colorRGB283</item>
+        <item>@color/colorRGB284</item>
+        <item>@color/colorRGB285</item>
+        <item>@color/colorRGB286</item>
+        <item>@color/colorRGB287</item>
+        <item>@color/colorRGB288</item>
+        <item>@color/colorRGB289</item>
+        <item>@color/colorRGB290</item>
+        <item>@color/colorRGB291</item>
+        <item>@color/colorRGB292</item>
+        <item>@color/colorRGB293</item>
+        <item>@color/colorRGB294</item>
+        <item>@color/colorRGB295</item>
+        <item>@color/colorRGB296</item>
+        <item>@color/colorRGB297</item>
+        <item>@color/colorRGB298</item>
+        <item>@color/colorRGB299</item>
+        <item>@color/colorRGB300</item>
+        <item>@color/colorRGB301</item>
+        <item>@color/colorRGB302</item>
+        <item>@color/colorRGB303</item>
+        <item>@color/colorRGB304</item>
+        <item>@color/colorRGB305</item>
+        <item>@color/colorRGB306</item>
+        <item>@color/colorRGB307</item>
+        <item>@color/colorRGB308</item>
+        <item>@color/colorRGB309</item>
+        <item>@color/colorRGB310</item>
+        <item>@color/colorRGB311</item>
+        <item>@color/colorRGB312</item>
+        <item>@color/colorRGB313</item>
+        <item>@color/colorRGB314</item>
+        <item>@color/colorRGB315</item>
+        <item>@color/colorRGB316</item>
+        <item>@color/colorRGB317</item>
+        <item>@color/colorRGB318</item>
+        <item>@color/colorRGB319</item>
+        <item>@color/colorRGB320</item>
+        <item>@color/colorRGB321</item>
+        <item>@color/colorRGB322</item>
+        <item>@color/colorRGB323</item>
+        <item>@color/colorRGB324</item>
+        <item>@color/colorRGB325</item>
+        <item>@color/colorRGB326</item>
+        <item>@color/colorRGB327</item>
+        <item>@color/colorRGB328</item>
+        <item>@color/colorRGB329</item>
+        <item>@color/colorRGB330</item>
+        <item>@color/colorRGB331</item>
+        <item>@color/colorRGB332</item>
+        <item>@color/colorRGB333</item>
+        <item>@color/colorRGB334</item>
+        <item>@color/colorRGB335</item>
+        <item>@color/colorRGB336</item>
+        <item>@color/colorRGB337</item>
+        <item>@color/colorRGB338</item>
+        <item>@color/colorRGB339</item>
+        <item>@color/colorRGB340</item>
+        <item>@color/colorRGB341</item>
+        <item>@color/colorRGB342</item>
+        <item>@color/colorRGB343</item>
+        <item>@color/colorRGB344</item>
+        <item>@color/colorRGB345</item>
+        <item>@color/colorRGB346</item>
+        <item>@color/colorRGB347</item>
+        <item>@color/colorRGB348</item>
+        <item>@color/colorRGB349</item>
+        <item>@color/colorRGB350</item>
+        <item>@color/colorRGB351</item>
+        <item>@color/colorRGB352</item>
+        <item>@color/colorRGB353</item>
+        <item>@color/colorRGB354</item>
+        <item>@color/colorRGB355</item>
+        <item>@color/colorRGB356</item>
+        <item>@color/colorRGB357</item>
+        <item>@color/colorRGB358</item>
+        <item>@color/colorRGB359</item>
+        <item>@color/colorRGB360</item>
+        <item>@color/colorRGB361</item>
+        <item>@color/colorRGB362</item>
+        <item>@color/colorRGB363</item>
+        <item>@color/colorRGB364</item>
+        <item>@color/colorRGB365</item>
+        <item>@color/colorRGB366</item>
+        <item>@color/colorRGB367</item>
+        <item>@color/colorRGB368</item>
+        <item>@color/colorRGB369</item>
+        <item>@color/colorRGB370</item>
+        <item>@color/colorRGB371</item>
+        <item>@color/colorRGB372</item>
+        <item>@color/colorRGB373</item>
+        <item>@color/colorRGB374</item>
+        <item>@color/colorRGB375</item>
+        <item>@color/colorRGB376</item>
+        <item>@color/colorRGB377</item>
+        <item>@color/colorRGB378</item>
+        <item>@color/colorRGB379</item>
+        <item>@color/colorRGB380</item>
+        <item>@color/colorRGB381</item>
+        <item>@color/colorRGB382</item>
+        <item>@color/colorRGB383</item>
+        <item>@color/colorRGB384</item>
+        <item>@color/colorRGB385</item>
+        <item>@color/colorRGB386</item>
+        <item>@color/colorRGB387</item>
+        <item>@color/colorRGB388</item>
+        <item>@color/colorRGB389</item>
+        <item>@color/colorRGB390</item>
+        <item>@color/colorRGB391</item>
+        <item>@color/colorRGB392</item>
+        <item>@color/colorRGB393</item>
+        <item>@color/colorRGB394</item>
+        <item>@color/colorRGB395</item>
+        <item>@color/colorRGB396</item>
+        <item>@color/colorRGB397</item>
+        <item>@color/colorRGB398</item>
+        <item>@color/colorRGB399</item>
+        <item>@color/colorRGB400</item>
+        <item>@color/colorRGB401</item>
+        <item>@color/colorRGB402</item>
+        <item>@color/colorRGB403</item>
+        <item>@color/colorRGB404</item>
+        <item>@color/colorRGB405</item>
+        <item>@color/colorRGB406</item>
+        <item>@color/colorRGB407</item>
+        <item>@color/colorRGB408</item>
+        <item>@color/colorRGB409</item>
+        <item>@color/colorRGB410</item>
+        <item>@color/colorRGB411</item>
+        <item>@color/colorRGB412</item>
+        <item>@color/colorRGB413</item>
+        <item>@color/colorRGB414</item>
+        <item>@color/colorRGB415</item>
+        <item>@color/colorRGB416</item>
+        <item>@color/colorRGB417</item>
+        <item>@color/colorRGB418</item>
+        <item>@color/colorRGB419</item>
+        <item>@color/colorRGB420</item>
+        <item>@color/colorRGB421</item>
+        <item>@color/colorRGB422</item>
+        <item>@color/colorRGB423</item>
+        <item>@color/colorRGB424</item>
+        <item>@color/colorRGB425</item>
+        <item>@color/colorRGB426</item>
+        <item>@color/colorRGB427</item>
+        <item>@color/colorRGB428</item>
+        <item>@color/colorRGB429</item>
+        <item>@color/colorRGB430</item>
+        <item>@color/colorRGB431</item>
+        <item>@color/colorRGB432</item>
+        <item>@color/colorRGB433</item>
+        <item>@color/colorRGB434</item>
+        <item>@color/colorRGB435</item>
+        <item>@color/colorRGB436</item>
+        <item>@color/colorRGB437</item>
+        <item>@color/colorRGB438</item>
+        <item>@color/colorRGB439</item>
+        <item>@color/colorRGB440</item>
+        <item>@color/colorRGB441</item>
+        <item>@color/colorRGB442</item>
+        <item>@color/colorRGB443</item>
+        <item>@color/colorRGB444</item>
+        <item>@color/colorRGB445</item>
+        <item>@color/colorRGB446</item>
+        <item>@color/colorRGB447</item>
+        <item>@color/colorRGB448</item>
+        <item>@color/colorRGB449</item>
+        <item>@color/colorRGB450</item>
+        <item>@color/colorRGB451</item>
+        <item>@color/colorRGB452</item>
+        <item>@color/colorRGB453</item>
+        <item>@color/colorRGB454</item>
+        <item>@color/colorRGB455</item>
+        <item>@color/colorRGB456</item>
+        <item>@color/colorRGB457</item>
+        <item>@color/colorRGB458</item>
+        <item>@color/colorRGB459</item>
+        <item>@color/colorRGB460</item>
+        <item>@color/colorRGB461</item>
+        <item>@color/colorRGB462</item>
+        <item>@color/colorRGB463</item>
+        <item>@color/colorRGB464</item>
+        <item>@color/colorRGB465</item>
+        <item>@color/colorRGB466</item>
+        <item>@color/colorRGB467</item>
+        <item>@color/colorRGB468</item>
+        <item>@color/colorRGB469</item>
+        <item>@color/colorRGB470</item>
+        <item>@color/colorRGB471</item>
+        <item>@color/colorRGB472</item>
+        <item>@color/colorRGB473</item>
+        <item>@color/colorRGB474</item>
+        <item>@color/colorRGB475</item>
+        <item>@color/colorRGB476</item>
+        <item>@color/colorRGB477</item>
+        <item>@color/colorRGB478</item>
+        <item>@color/colorRGB479</item>
+        <item>@color/colorRGB480</item>
+        <item>@color/colorRGB481</item>
+        <item>@color/colorRGB482</item>
+        <item>@color/colorRGB483</item>
+        <item>@color/colorRGB484</item>
+        <item>@color/colorRGB485</item>
+        <item>@color/colorRGB486</item>
+        <item>@color/colorRGB487</item>
+        <item>@color/colorRGB488</item>
+        <item>@color/colorRGB489</item>
+        <item>@color/colorRGB490</item>
+        <item>@color/colorRGB491</item>
+        <item>@color/colorRGB492</item>
+        <item>@color/colorRGB493</item>
+        <item>@color/colorRGB494</item>
+        <item>@color/colorRGB495</item>
+        <item>@color/colorRGB496</item>
+        <item>@color/colorRGB497</item>
+        <item>@color/colorRGB498</item>
+        <item>@color/colorRGB499</item>
+        <item>@color/colorRGB500</item>
+        <item>@color/colorRGB501</item>
+        <item>@color/colorRGB502</item>
+        <item>@color/colorRGB503</item>
+        <item>@color/colorRGB504</item>
+        <item>@color/colorRGB505</item>
+        <item>@color/colorRGB506</item>
+        <item>@color/colorRGB507</item>
+        <item>@color/colorRGB508</item>
+        <item>@color/colorRGB509</item>
+        <item>@color/colorRGB510</item>
+        <item>@color/colorRGB511</item>
+        <item>@color/colorRGB512</item>
+        <item>@color/colorRGB513</item>
+        <item>@color/colorRGB514</item>
+        <item>@color/colorRGB515</item>
+        <item>@color/colorRGB516</item>
+        <item>@color/colorRGB517</item>
+        <item>@color/colorRGB518</item>
+        <item>@color/colorRGB519</item>
+        <item>@color/colorRGB520</item>
+        <item>@color/colorRGB521</item>
+        <item>@color/colorRGB522</item>
+        <item>@color/colorRGB523</item>
+        <item>@color/colorRGB524</item>
+    </array>
+
+</resources>

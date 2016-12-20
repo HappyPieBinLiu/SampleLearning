@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AdapterViews">
+        <item>ListView</item>
+        <item>GridView</item>
+        <item>Spinner</item>
+        <item>AdapterViewFlipper</item>
+        <item>StackView</item>
+        <item>ExpandableListView</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Girl</item>
+        <item>Boy</item>
+    </string-array>
+    <string-array name="genderValue">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="light_strength">
+        <item>强</item>
+        <item>中</item>
+        <item>弱</item>
+    </string-array>
+    <string-array name="light_strength_value">
+        <item>100</item>
+        <item>50</item>
+        <item>5</item>
+    </string-array>
+    <!--定义一个属性 duration  持续时间；期间-->
+    <attr name="duration">
+    </attr>
+    <declare-styleable name="AlphaImageView">
+        <attr name="duration"/>
+    </declare-styleable>
+
+</resources>

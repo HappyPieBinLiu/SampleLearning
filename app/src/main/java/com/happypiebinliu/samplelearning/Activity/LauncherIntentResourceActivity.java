@@ -4,11 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
+import com.happypiebinliu.samplelearning.ActivityResource.AlphaImageViewActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.AnimationDrawableActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.ClipDrawableActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.LayerListActivity;
+import com.happypiebinliu.samplelearning.ActivityResource.PropertyAnimationActivity;
+import com.happypiebinliu.samplelearning.ActivityResource.RawXmlActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.ShapeDrawableActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.StateListDrawableActivity;
+import com.happypiebinliu.samplelearning.ActivityResource.StyleThemeActivity;
 import com.happypiebinliu.samplelearning.ActivityResource.ValuesResColorStringDimenActivity;
 import com.happypiebinliu.samplelearning.ActivityUI.ProgressBar.SeekBarActivity;
 import com.happypiebinliu.samplelearning.R;
@@ -25,6 +29,10 @@ public class LauncherIntentResourceActivity extends android.app.LauncherActivity
             ShapeDrawableActivity.class,
             ClipDrawableActivity.class,
             AnimationDrawableActivity.class,
+            PropertyAnimationActivity.class,
+            RawXmlActivity.class,
+            StyleThemeActivity.class,
+            AlphaImageViewActivity.class,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

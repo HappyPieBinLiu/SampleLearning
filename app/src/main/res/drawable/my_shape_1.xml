@@ -2,8 +2,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <!--设置填充颜色-->
-    <solid android:color="@color/colorRGB12"/>
-    <!--设置内边距-->
+    <!-- <solid android:color="@color/colorRGB12"/>-->
+  <!--设置内边距-->
     <padding android:left="7dp"
              android:right="7dp"
              android:top="7dp"

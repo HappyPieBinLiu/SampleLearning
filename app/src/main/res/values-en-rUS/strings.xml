@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SampleLearning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 字符串，颜色，尺寸的资源文件 测试 -->
+    <string name="ValuesResourceTestName">字符串，颜色，尺寸的资源文件 测试</string>
+    <string name="mystyle1">EN-指定样式1</string>
+    <string name="mystyle2">EN-指定样式2</string>
+
+    <!--Button-->
+    <string name="findNextImageBtn">EN-寻找下一张图片</string>
+
+</resources>

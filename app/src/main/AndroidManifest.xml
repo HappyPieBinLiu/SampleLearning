@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
           package="com.happypiebinliu.samplelearning">
 
     <uses-permission android:name="android.permission.FLASHLIGHT"/>
@@ -103,6 +102,18 @@
         <activity android:name=".ActivityResource.ClipDrawableActivity">
         </activity>
         <activity android:name=".ActivityResource.AnimationDrawableActivity">
+        </activity>
+        <activity android:name=".ActivityResource.PropertyAnimationActivity">
+        </activity>
+        <activity android:name=".ActivityResource.RawXmlActivity">
+        </activity>
+        <activity android:name=".ActivityResource.StyleThemeActivity">
+        </activity>
+        <activity android:name=".ActivityResource.AlphaImageViewActivity">
+        </activity>
+        <activity android:name=".Activity.LauncherImageActivity">
+        </activity>
+        <activity android:name=".ActivityImage.BitmapActivity">
         </activity>
     </application>
 

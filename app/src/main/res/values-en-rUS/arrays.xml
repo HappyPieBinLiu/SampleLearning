@@ -26,5 +26,11 @@
         <item>50</item>
         <item>5</item>
     </string-array>
+    <!--定义一个属性 duration  持续时间；期间-->
+    <attr name="duration">
+    </attr>
+    <declare-styleable name="AlphaImageView">
+        <attr name="duration"/>
+    </declare-styleable>
 
 </resources>

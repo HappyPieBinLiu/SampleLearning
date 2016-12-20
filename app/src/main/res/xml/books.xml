@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns:android="http://schemas.android.com/apk/res/android">
+    <book  price="12.3" time = "2008"> 法轮大法--入门到精通</book>
+    <book  price="62.3" time = "2008"> 程序员的叮屏生活</book>
+    <book  price="112.3" time = "2008"> 灭世主的通达之路</book>
+    <book  price="2.3" time = "2008"> 社会主义好榜样</book>
+
+</book>

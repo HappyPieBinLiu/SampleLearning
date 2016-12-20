@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:View="http://schemas.android.com/apk/com.happypiebinliu.samplelearning.View"
+    android:id="@+id/activity_alpha_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.happypiebinliu.samplelearning.View.AlphaImageView
+        View:duration="60000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

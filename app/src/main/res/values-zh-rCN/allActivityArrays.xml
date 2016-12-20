@@ -15,5 +15,12 @@
         <item>ShapeDrawable资源文件  测试(ShapeDrawableActivity)</item>
         <item>ClipDrawable资源文件(徐徐展开图片)  测试(ClipDrawableActivity)</item>
         <item>AnimationDrawable资源文件(动画变换)  测试(AnimationDrawableActivity)</item>
+        <item>PropertyAnimation资源文件(属性动画)  测试(PropertyAnimationActivity)</item>
+        <item>XML资源文件  测试(RawXmlActivity)</item>
+        <item>样式和主题资源  测试(StyleThemeActivity)</item>
+        <item>Attribute 资源  测试(AlphaImageViewActivity)</item>
+    </string-array>
+    <string-array name="ImageTestActivityListName">
+        <item>EN-字符串，颜色，尺寸的资源文件 测试(ValuesResColorStringDimenActivity)</item>
     </string-array>
 </resources>
