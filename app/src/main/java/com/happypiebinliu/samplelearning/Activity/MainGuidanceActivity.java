@@ -22,13 +22,15 @@ public class MainGuidanceActivity extends AppCompatActivity {
             R.drawable.guidance_activity_event,
             R.drawable.guidance_activity_fragment,
             R.drawable.guidance_activity_fra,
+            R.drawable.guidance_activity_iamge,
     };
 
     Class<?>[] classes = {
             LauncherActivity.class,
             LauncherActivity.class,
             LauncherActivityAndFragment.class,
-            LauncherIntentResourceActivity.class
+            LauncherIntentResourceActivity.class,
+            LauncherImageActivity.class,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

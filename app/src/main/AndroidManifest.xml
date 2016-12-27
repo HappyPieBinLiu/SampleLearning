@@ -115,6 +115,14 @@
         </activity>
         <activity android:name=".ActivityImage.BitmapActivity">
         </activity>
+        <activity android:name=".ActivityImage.OnDrawActivity">
+        </activity>
+        <activity android:name=".ActivityImage.DrawPathActivity">
+        </activity>
+        <activity android:name=".ActivityImage.DrawTextOnPathActivity">
+        </activity>
+        <activity android:name=".ActivityImage.DrawBitmapActivity">
+        </activity>
     </application>
 
 </manifest>

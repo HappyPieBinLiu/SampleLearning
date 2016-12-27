@@ -24,6 +24,11 @@
 
     <!--图形图像处理-->
     <string-array name="ImageTestActivityListName">
-        <item>EN-字符串，颜色，尺寸的资源文件 测试(ValuesResColorStringDimenActivity)</item>
+        <item>EN-图片图像-bitmap  测试(BitmapActivity)</item>
+        <item>EN-绘图基础-Canves Paint  测试(OnDrawActivity)</item>
+        <item>EN-绘图基础-Path(绘制效果添加)   测试(DrawPathActivity)</item>
+        <item>EN-绘图基础-drawTextOnPath(绘制文本)   测试(DrawTextOnPathActivity)</item>
+        <item>EN-绘图基础-drawLine(手绘画线，双缓冲实现画图板)   测试(DrawBitmapActivity)</item>
+
     </string-array>
 </resources>

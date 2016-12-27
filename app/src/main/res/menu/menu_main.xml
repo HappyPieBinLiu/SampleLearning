@@ -27,5 +27,17 @@
             </group>
         </menu>
     </item>
+    <item android:title="width">
+        <menu>
+            <group>
+                <item android:id="@+id/width1" android:title="width1"/>
+                <item android:id="@+id/width2" android:title="width2"/>
+                <item android:id="@+id/width3" android:title="width3"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/blur" android:title="blur"/>
+    <item android:id="@+id/emboss" android:title="emboss"/>
 
 </menu>

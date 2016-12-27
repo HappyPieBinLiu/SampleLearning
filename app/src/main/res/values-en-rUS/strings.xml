@@ -11,5 +11,13 @@
 
     <!--Button-->
     <string name="findNextImageBtn">EN-寻找下一张图片</string>
+    <string name="circle">圆形</string>
+    <string name="square">正方形</string>
+    <string name="rect">矩形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="oval">椭圆</string>
+    <string name="triangle">三角形</string>
+    <string name="pentagon">五角星</string>
+    <string name="drawtextonpath">drawtextonpath 来个测试</string>
 
 </resources>

@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
-import com.happypiebinliu.samplelearning.ActivityResource.ValuesResColorStringDimenActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.BitmapActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.DrawPathActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.DrawTextOnPathActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.OnDrawActivity;
 import com.happypiebinliu.samplelearning.R;
 
 public class LauncherImageActivity extends LauncherActivity {
@@ -12,7 +15,10 @@ public class LauncherImageActivity extends LauncherActivity {
     String[]   names;
 
     Class<?>[] classes = {
-            ValuesResColorStringDimenActivity.class,
+            BitmapActivity.class,
+            OnDrawActivity.class,
+            DrawPathActivity.class,
+            DrawTextOnPathActivity.class,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

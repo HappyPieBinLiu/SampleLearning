@@ -1,7 +1,9 @@
 package com.happypiebinliu.samplelearning.ActivityImage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.happypiebinliu.samplelearning.R;
 
 public class OnDrawActivity extends AppCompatActivity {
 
