@@ -123,6 +123,13 @@
         </activity>
         <activity android:name=".ActivityImage.DrawBitmapActivity">
         </activity>
+        <activity android:name=".ActivityImage.TableBallActivity">
+        </activity>
+        <activity android:name=".ActivityImage.MatrixViewActivity"/>
+        <activity android:name=".View.MoveActivity">
+        </activity>
+        <activity android:name=".ActivityImage.DrawBitmapMeshActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -5,10 +5,15 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
 import com.happypiebinliu.samplelearning.ActivityImage.BitmapActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.DrawBitmapActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.DrawBitmapMeshActivity;
 import com.happypiebinliu.samplelearning.ActivityImage.DrawPathActivity;
 import com.happypiebinliu.samplelearning.ActivityImage.DrawTextOnPathActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.MatrixViewActivity;
 import com.happypiebinliu.samplelearning.ActivityImage.OnDrawActivity;
+import com.happypiebinliu.samplelearning.ActivityImage.TableBallActivity;
 import com.happypiebinliu.samplelearning.R;
+import com.happypiebinliu.samplelearning.View.MoveActivity;
 
 public class LauncherImageActivity extends LauncherActivity {
 
@@ -19,6 +24,12 @@ public class LauncherImageActivity extends LauncherActivity {
             OnDrawActivity.class,
             DrawPathActivity.class,
             DrawTextOnPathActivity.class,
+            DrawBitmapActivity.class,
+            TableBallActivity.class,
+            MatrixViewActivity.class,
+            MoveActivity.class,
+            DrawBitmapMeshActivity.class,
+
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

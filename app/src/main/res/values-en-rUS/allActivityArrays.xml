@@ -29,6 +29,9 @@
         <item>EN-绘图基础-Path(绘制效果添加)   测试(DrawPathActivity)</item>
         <item>EN-绘图基础-drawTextOnPath(绘制文本)   测试(DrawTextOnPathActivity)</item>
         <item>EN-绘图基础-drawLine(手绘画线，双缓冲实现画图板)   测试(DrawBitmapActivity)</item>
-
+        <item>EN-绘图基础-弹球小游戏   测试(TableBallActivity)</item>
+        <item>EN-绘图基础-图片的旋转缩放   测试(MatrixViewActivity)</item>
+        <item>EN-绘图基础-移动效果   测试(MoveActivity)</item>
+        <item>EN-绘图基础-扭曲效果   测试(DrawBitmapMeshActivity)</item>
     </string-array>
 </resources>
